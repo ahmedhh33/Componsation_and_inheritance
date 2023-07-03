@@ -98,7 +98,7 @@ namespace Componsation_and_inheritance
         public void GetCourseinfo()
         {
             Console.WriteLine($"CoueseID: {this.CourseId} || Title: {this.Title} || Course Descriptions: {this.Description} ");
-            Console.WriteLine("Assigned Teacher: " + (CourseTeacher != null ? CourseTeacher.Name : "Not assigned"));
+            Console.WriteLine("Assigned Teacher: " + (CourseTeacher != null ? CourseTeacher.Name : "Not assigned"));//all exeptions must be in the brakets
             Console.WriteLine();
         }
 
